@@ -10,13 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @include tablet {
-    // display: block;
-
-    // flex-direction: column;
-    // align-items: center;
-  }
 }
 
 .contacts__list {
@@ -113,7 +106,7 @@
     padding-bottom: 32px;
   }
 }
-// l-h:1.83
+
 .contacts__link {
   cursor: url('/src/images/Vector.png'), auto;
   display: inline-block;
@@ -217,7 +210,7 @@
     }
   }
 }
-// l-h:1.5
+
 .connects__link {
   cursor: url('/src/images/Vector.png'), auto;
   display: block;
