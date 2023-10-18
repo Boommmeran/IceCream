@@ -16,15 +16,9 @@ buttonClose.addEventListener('click', function (e) {
 
 const links = document.querySelectorAll('.header__link');
 
-console.log(links);
 for (let index = 0; index < links.length; index++) {
 	const link = links[index];
 	link.addEventListener('click', function () {
 	slideDownMenu.classList.remove('active');
 })
 }
-
-	
-
-
-
